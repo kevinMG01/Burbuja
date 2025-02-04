@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 283da7bf416b32044baa4c60be727339
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja Normal_Alpha
+    second: {fileID: 2800000, guid: 6adcfaa18324ee440a3bb7ecd7c16e85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja Normal_BaseColor
+    second: {fileID: 2800000, guid: 88a351a3d02aacb4d87056d56ce80c6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja Normal_Emission
+    second: {fileID: 2800000, guid: 3adf449981b5b4642bad3a93db39fca2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja Normal_Metallic
+    second: {fileID: 2800000, guid: 490d6d8641295f1438fe06be31ecff1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja Normal_Normal
+    second: {fileID: 2800000, guid: 5f567c7fe0380b94c9d7799948241b12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja Normal_Roughness
+    second: {fileID: 2800000, guid: dc7068ecc14a79f42bca776ae2d70210, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja de Javon_Alpha
+    second: {fileID: 2800000, guid: 5ca1b14dd320b834984a9c444024c0fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja de Javon_BaseColor
+    second: {fileID: 2800000, guid: d7701a692f7995a49b6d49038d77f5bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja de Javon_Emission
+    second: {fileID: 2800000, guid: 46eb77fb5e1b8c54d95d06f617942b9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja de Javon_Metallic
+    second: {fileID: 2800000, guid: 0583a2b8dcfdc1b468b114692f1848a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja de Javon_Normal
+    second: {fileID: 2800000, guid: 3145ccd9dbd716a4c82839968cda3c45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbuja de Javon_Roughness
+    second: {fileID: 2800000, guid: 6d45461d3e932fb4ebdd4be6ca5603b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas de Javon_Alpha
+    second: {fileID: 2800000, guid: 1352b7caa0c794d47a05e2db828ec61c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas de Javon_BaseColor
+    second: {fileID: 2800000, guid: 33d87f22a3786e74b8288ba4e6c3bb3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas de Javon_Emission
+    second: {fileID: 2800000, guid: 94cd4180341a3fc4cb15778772bda6cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas de Javon_Metallic
+    second: {fileID: 2800000, guid: 0e23c6704087ab64a860c3516e9f5dad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas de Javon_Normal
+    second: {fileID: 2800000, guid: 15e4b5f9af32ff94980e0f2e4f0d500f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas de Javon_Roughness
+    second: {fileID: 2800000, guid: c7aea829345aeeb44b833660031ce8fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas_Alpha
+    second: {fileID: 2800000, guid: b47192872524a4a4f8d7bfe807f45657, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas_BaseColor
+    second: {fileID: 2800000, guid: 6a6dbe34084cd1e499aa62e5997a7040, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas_Emission
+    second: {fileID: 2800000, guid: daa35b6eb0616bc4ea2336d2eb855058, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas_Metallic
+    second: {fileID: 2800000, guid: 9e4be048ecdfd0f43abc4d559898269b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas_Normal
+    second: {fileID: 2800000, guid: d15210a613a20174281161c9d3464bea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Burbujitas_Roughness
+    second: {fileID: 2800000, guid: 378a813a36b4a36498d6e4cf59a02987, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
