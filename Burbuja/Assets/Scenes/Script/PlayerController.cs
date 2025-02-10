@@ -10,12 +10,16 @@ public class PlayerController : MonoBehaviour
     private Vector3 playerInput;
 
     public CharacterController player;
+
+    public float playerSpeed;
     private Vector3 movePlayer;
+    public float gravity = 9.8f;
+    public float fallVelocity;
 
     public Camera mainCamara;
     private Vector3 camForward;
     private Vector3 camRight;
-    public float playerSpeed;
+   
     void Start()
     {
         player = GetComponent<CharacterController>();
@@ -33,9 +37,14 @@ public class PlayerController : MonoBehaviour
 
         movePlayer = playerInput.x * camRight + playerInput.z * camForward;
 
+        movePlayer = movePlayer * playerSpeed;
+
         player.transform.LookAt(player.transform.position + movePlayer);
 
-        player.Move(movePlayer * playerSpeed * Time.deltaTime);
+        SetGravity();
+
+        player.Move(movePlayer * Time.deltaTime);
+        Debug.Log(player.velocity.magnitude);
 
     }
 
@@ -51,4 +60,18 @@ public class PlayerController : MonoBehaviour
         camRight = camRight.normalized;
     }
 
+    void SetGravity()
+    {
+        if (player.isGrounded)//si el jugador esta tocando el suelo la gravedad sera sera fija = 9,8f 
+        {
+            fallVelocity = -gravity * Time.deltaTime;
+            movePlayer.y = fallVelocity;
+        }
+        else // y si estamos en el aire aplicaremos la gravedad pero no sera constante sino que se sumara
+        {
+            fallVelocity -= gravity * Time.deltaTime;
+            movePlayer.y = fallVelocity;
+        }
+
+    }
 }
