@@ -21,6 +21,10 @@ public class PlayerController : MonoBehaviour
     private Vector3 camForward;
     private Vector3 camRight;
    
+   public bool isOnSlope = false;
+   private Vector3 hitNormal;
+   public float slideVelocity;
+   public float slopeForceDown;
     void Start()
     {
         player = GetComponent<CharacterController>();
@@ -87,6 +91,26 @@ public class PlayerController : MonoBehaviour
             fallVelocity -= gravity * Time.deltaTime;
             movePlayer.y = fallVelocity;
         }
+        SlideDown();
 
+    }
+
+    public void SlideDown()
+    {
+        //isOnslopre sera verdavero siempre y cuando pase esto
+        isOnSlope = Vector3.Angle(Vector3.up, hitNormal) >= player.slopeLimit;
+        if (isOnSlope)
+        {
+            movePlayer.x += ((1f - hitNormal.y) *hitNormal.x) * slideVelocity;
+            movePlayer.z += ((1f - hitNormal.z) *hitNormal.z) * slideVelocity;
+
+            movePlayer.y += slopeForceDown;
+        }
+    }
+
+    //DETECTA CUANDO COLICIONA CON OTRO OBJETO
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        hitNormal = hit.normal;
     }
 }
